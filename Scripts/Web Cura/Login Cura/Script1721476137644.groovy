@@ -29,6 +29,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.Url)
 
+WebUI.deleteAllCookies()
+
 WebUI.click(new TestObject().addProperty('id',ConditionType.EQUALS,"btn-make-appointment"))
 
 WebUI.setText(new TestObject().addProperty('id',ConditionType.EQUALS,"txt-username"),username)
