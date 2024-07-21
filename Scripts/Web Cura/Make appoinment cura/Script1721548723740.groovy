@@ -19,25 +19,25 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testobject.ConditionType
 
 
-String username = 'John Doe'
-
-String password = 'ThisIsNotAPassword'
+String command = 'I already apply appointment'
 
 
+WebUI.callTestCase(findTestCase('Web Cura/Login Cura'), [('username'):'John Doe',('password'):'ThisIsNotAPassword'])
 
-WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.Url)
+WebUI.selectOptionByIndex(new TestObject().addProperty('id',ConditionType.EQUALS,"combo_facility"),2)
 
-WebUI.deleteAllCookies()
+WebUI.click(new TestObject().addProperty('id',ConditionType.EQUALS,"chk_hospotal_readmission"))
 
-WebUI.click(new TestObject().addProperty('id',ConditionType.EQUALS,"btn-make-appointment"))
+WebUI.click(new TestObject().addProperty('id',ConditionType.EQUALS,"radio_program_medicaid"))
 
-WebUI.setText(new TestObject().addProperty('id',ConditionType.EQUALS,"txt-username"),username)
+WebUI.setText(new TestObject().addProperty('id',ConditionType.EQUALS,"txt_comment"),command)
 
-WebUI.setText(new TestObject().addProperty('id',ConditionType.EQUALS,"txt-password"),password)
 
-WebUI.click(new TestObject().addProperty('id',ConditionType.EQUALS,"btn-login"))
+
+
+
+
 
 
 
