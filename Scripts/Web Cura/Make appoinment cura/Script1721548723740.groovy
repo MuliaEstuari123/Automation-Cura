@@ -17,9 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testobject.ConditionType
+import java.time.format.DateTimeFormatter
+import java.text.SimpleDateFormat
 
 
 String command = 'I already apply appointment'
+
+SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+Calendar calendar = Calendar.getInstance();
+String currentDate = dateFormat.format(calendar.getTime());
+
+
+calendar.add(Calendar.DATE, 2);
+String futureDate = dateFormat.format(calendar.getTime());
 
 
 WebUI.callTestCase(findTestCase('Web Cura/Login Cura'), [('username'):'John Doe',('password'):'ThisIsNotAPassword'])
@@ -31,13 +41,14 @@ WebUI.click(new TestObject().addProperty('id',ConditionType.EQUALS,"chk_hospotal
 
 WebUI.click(new TestObject().addProperty('id',ConditionType.EQUALS,"radio_program_medicaid"))
 
+
+WebUI.setText(new TestObject().addProperty('id',ConditionType.EQUALS,"txt_visit_date"),currentDate)
+
+WebUI.click(new TestObject().addProperty('id',ConditionType.EQUALS,"txt_comment"))
+
 WebUI.setText(new TestObject().addProperty('id',ConditionType.EQUALS,"txt_comment"),command)
 
-
-
-
-
-
+WebUI.click(new TestObject().addProperty('id',ConditionType.EQUALS,"btn-book-appointment"))
 
 
 
