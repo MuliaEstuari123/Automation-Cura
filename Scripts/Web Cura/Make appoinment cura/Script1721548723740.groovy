@@ -35,11 +35,15 @@ String futureDate = dateFormat.format(calendar.getTime());
 WebUI.callTestCase(findTestCase('Web Cura/Login Cura'), [('username'):'John Doe',('password'):'ThisIsNotAPassword'])
 
 
-WebUI.selectOptionByIndex(new TestObject().addProperty('id',ConditionType.EQUALS,"combo_facility"),2)
-
-WebUI.click(new TestObject().addProperty('id',ConditionType.EQUALS,"chk_hospotal_readmission"))
-
-WebUI.click(new TestObject().addProperty('id',ConditionType.EQUALS,"radio_program_medicaid"))
+if (WebUI.verifyElementPresent(new TestObject().addProperty('id',ConditionType.EQUALS,"combo_facility"),2)) {
+	
+	WebUI.selectOptionByIndex(new TestObject().addProperty('id',ConditionType.EQUALS,"combo_facility"),2)
+	
+	WebUI.click(new TestObject().addProperty('id',ConditionType.EQUALS,"chk_hospotal_readmission"))
+	
+	WebUI.click(new TestObject().addProperty('id',ConditionType.EQUALS,"radio_program_medicaid"))
+	
+}
 
 
 WebUI.setText(new TestObject().addProperty('id',ConditionType.EQUALS,"txt_visit_date"),currentDate)
