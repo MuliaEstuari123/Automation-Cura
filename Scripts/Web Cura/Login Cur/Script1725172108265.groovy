@@ -31,14 +31,13 @@ WebUI.navigateToUrl(GlobalVariable.Url)
 
 WebUI.deleteAllCookies()
 
-WebUI.click(new TestObject().addProperty('id',ConditionType.EQUALS,"btn-make-appointment"))
+WebUI.click(new TestObject().addProperty('id',ConditionType.EQUALS,"btn-make-appointment")) 
 
 WebUI.setText(new TestObject().addProperty('id',ConditionType.EQUALS,"txt-username"),username)
 
 WebUI.setText(new TestObject().addProperty('id',ConditionType.EQUALS,"txt-password"),password)
 
 WebUI.click(new TestObject().addProperty('id',ConditionType.EQUALS,"btn-login"))
-
 
 
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Make appoinment cura</name>
+   <name>Login_core_value</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c312bd06-fb6c-4c66-8820-ecb0e4dda809</testCaseGuid>
+   <testCaseGuid>af9e0383-ee94-43bc-b087-591c0729de6d</testCaseGuid>
 </TestCaseEntity>

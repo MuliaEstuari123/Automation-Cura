@@ -54,9 +54,19 @@ public class functionAppoinment {
 		WebUI.click(new TestObject().addProperty('id',ConditionType.EQUALS,"radio_program_medicaid"))
 
 		WebUI.setText(new TestObject().addProperty('id',ConditionType.EQUALS,"txt_visit_date"),currentDate)
-		
+
 		WebUI.click(new TestObject().addProperty('id',ConditionType.EQUALS,"txt_comment"))
 
 		WebUI.setText(new TestObject().addProperty('id',ConditionType.EQUALS,"txt_comment"),command)
+	}
+
+
+	@Keyword
+	public void inputUsername_Password (username,password) {
+
+		WebUI.setText(new TestObject().addProperty('id',ConditionType.EQUALS,'txt-username'),username)
+
+
+		WebUI.setText(new TestObject().addProperty('id',ConditionType.EQUALS,'txt-password'),password)
 	}
 }

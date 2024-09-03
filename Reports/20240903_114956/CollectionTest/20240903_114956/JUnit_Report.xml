@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CollectionTest" time="33.001" tests="1" failures="0" errors="0">
+   <testsuite name="CollectionTest" tests="1" failures="0" errors="0" time="33.001" skipped="0" timestamp="2024-09-03 11:50:44" hostname="Mulia Estuari - 10.255.10.45" id="Test Suites/CollectionTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Mulia Estuari\\Documents\\testing web Cura\\Automation-Cura\\Reports\\20240903_114956\\CollectionTest\\20240903_114956"/>
+         <property name="logFiles" value="C:\\Users\\Mulia Estuari\\Documents\\testing web Cura\\Automation-Cura\\Reports\\20240903_114956\\CollectionTest\\20240903_114956\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Mulia Estuari - 10.255.10.45"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="10.255.10.45"/>
+         <property name="sessionId" value="6d8adb28917c81c6d54d2e0d369f9005"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web Cura/Login Cur" time="31.995" classname="Test Cases/Web Cura/Login Cur" status="PASSED">
+         <system-out><![CDATA[2024-09-03 11:50:45 - [TEST_CASE][PASSED] - Test Cases/Web Cura/Login Cur: Test Cases/Web Cura/Login Cur
+
+2024-09-03 11:50:46 - [TEST_STEP][PASSED] - username = "John Doe": null
+
+2024-09-03 11:50:46 - [TEST_STEP][PASSED] - password = "ThisIsNotAPassword": null
+
+2024-09-03 11:50:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-09-03 11:50:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-09-03 11:50:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-09-03 11:51:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-09-03 11:51:05 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2024-09-03 11:51:11 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2024-09-03 11:51:11 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2024-09-03 11:51:11 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2024-09-03 11:51:11 - [TEST_STEP][PASSED] - click(TestObject().addProperty("id", EQUALS, "btn-make-appointment")): Object: '' is clicked on
+
+2024-09-03 11:51:12 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2024-09-03 11:51:12 - [TEST_STEP][PASSED] - setText(TestObject().addProperty("id", EQUALS, "txt-username"), username): Text 'John Doe' is set on object ''
+
+2024-09-03 11:51:14 - [MESSAGE][PASSED] - Text 'John Doe' is set on object ''
+
+2024-09-03 11:51:14 - [TEST_STEP][PASSED] - setText(TestObject().addProperty("id", EQUALS, "txt-password"), password): Text 'ThisIsNotAPassword' is set on object ''
+
+2024-09-03 11:51:15 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object ''
+
+2024-09-03 11:51:15 - [TEST_STEP][PASSED] - click(TestObject().addProperty("id", EQUALS, "btn-login")): Object: '' is clicked on
+
+2024-09-03 11:51:17 - [MESSAGE][PASSED] - Object: '' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-09-03 11:50:44 - [TEST_SUITE][PASSED] - CollectionTest: Test Cases/Web Cura/Login Cur]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

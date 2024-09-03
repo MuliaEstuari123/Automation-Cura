@@ -32,9 +32,9 @@ calendar.add(Calendar.DATE, 2);
 String futureDate = dateFormat.format(calendar.getTime());
 
 
-WebUI.callTestCase(findTestCase('Web Cura/Login Cura'), [('username'):'John Doe',('password'):'ThisIsNotAPassword'])
+WebUI.callTestCase(findTestCase('Web Cura/Login Cur'), [('username'):'John Doe',('password'):'ThisIsNotAPassword'])
 
-
+/// tambahan aja
 if (WebUI.verifyElementPresent(new TestObject().addProperty('id',ConditionType.EQUALS,"combo_facility"),2)) {
 	
 	WebUI.selectOptionByIndex(new TestObject().addProperty('id',ConditionType.EQUALS,"combo_facility"),2)
