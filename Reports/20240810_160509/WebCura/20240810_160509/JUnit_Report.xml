@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="WebCura" time="39.901" tests="1" failures="0" errors="0">
+   <testsuite name="WebCura" tests="1" failures="0" errors="0" time="39.901" skipped="0" timestamp="2024-08-10 16:05:15" hostname="Mulia Estuari - DESKTOP-C1VBO9R" id="Test Suites/WebCura">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Mulia Estuari\\Documents\\testing web Cura\\Automation-Cura\\Reports\\20240810_160509\\WebCura\\20240810_160509"/>
+         <property name="logFiles" value="C:\\Users\\Mulia Estuari\\Documents\\testing web Cura\\Automation-Cura\\Reports\\20240810_160509\\WebCura\\20240810_160509\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Mulia Estuari\\Documents\\testing web Cura\\Automation-Cura\\Reports\\20240810_160509\\WebCura\\20240810_160509\\1723280743233.png, C:\\Users\\Mulia Estuari\\Documents\\testing web Cura\\Automation-Cura\\Reports\\20240810_160509\\WebCura\\20240810_160509\\1723280751580.png, C:\\Users\\Mulia Estuari\\Documents\\testing web Cura\\Automation-Cura\\Reports\\20240810_160509\\WebCura\\20240810_160509\\1723280754239.png"/>
+         <property name="hostName" value="Mulia Estuari - DESKTOP-C1VBO9R"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="192.168.20.249"/>
+         <property name="sessionId" value="4248af1aa2184e20f44410ba42c5f4d5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web Cura/Test" time="39.22" classname="Test Cases/Web Cura/Test" status="PASSED">
+         <system-out><![CDATA[2024-08-10 16:05:15 - [TEST_CASE][PASSED] - Test Cases/Web Cura/Test: Test Cases/Web Cura/Test
+
+2024-08-10 16:05:17 - [TEST_STEP][PASSED] - username = "John Doe": null
+
+2024-08-10 16:05:17 - [TEST_STEP][PASSED] - password = "ThisIsNotAPassword": null
+
+2024-08-10 16:05:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-08-10 16:05:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-08-10 16:05:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-08-10 16:05:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-08-10 16:05:23 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2024-08-10 16:05:36 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2024-08-10 16:05:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/btn_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/btn_Make Appointment' is clicked on
+
+2024-08-10 16:05:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/btn_Make Appointment' is clicked on
+
+2024-08-10 16:05:42 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-08-10 16:05:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Mulia Estuari\\Documents\\testing web Cura\\Automation-Cura\\Reports\\20240810_160509\\WebCura\\20240810_160509\\1723280743233.png]]
+
+2024-08-10 16:05:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username"), username): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username'
+
+2024-08-10 16:05:49 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username'
+
+2024-08-10 16:05:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password"), password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password'
+
+2024-08-10 16:05:51 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password'
+
+2024-08-10 16:05:51 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-08-10 16:05:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Mulia Estuari\\Documents\\testing web Cura\\Automation-Cura\\Reports\\20240810_160509\\WebCura\\20240810_160509\\1723280751580.png]]
+
+2024-08-10 16:05:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/btn_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/btn_Login' is clicked on
+
+2024-08-10 16:05:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/btn_Login' is clicked on
+
+2024-08-10 16:05:53 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-08-10 16:05:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Mulia Estuari\\Documents\\testing web Cura\\Automation-Cura\\Reports\\20240810_160509\\WebCura\\20240810_160509\\1723280754239.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-08-10 16:05:15 - [TEST_SUITE][PASSED] - WebCura: Test Cases/Web Cura/Test]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
